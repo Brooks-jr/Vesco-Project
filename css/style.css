@@ -27,6 +27,12 @@ body {
 
 h3 {
     text-transform: uppercase;
+    color: #41464b;
+}
+p {
+    color: #64707b;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 /*=======================================================
@@ -40,9 +46,6 @@ h3 {
 #home-cover {
     height: 100%;
     background-image: url("../img/bg-home.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 #home-content-box {
@@ -62,6 +65,68 @@ h3 {
     font-weight: 700;
     margin: 20px 0;
 }
+
+/*=======================================================
+-                   SERVICES SECTION
+=======================================================*/
+.service-item {
+    padding: 20px 0px;
+    margin-bottom: 20px; 
+    cursor: pointer;
+}
+.service-item-icon {
+    color: #34c6d3;
+    float: left;
+    padding: 15px;
+    margin: 0 25px 2px 0;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+}
+.service-item:hover .service-item-icon {
+    color: #fff;
+    background-color: #34c6d3;
+}
+
+.service-item-title h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+}
+.service-item-description p {
+    margin: 0;
+    padding-left: 85px;
+}
+
+/*=======================================================
+-               PARALLAX SCROLL EFFECT
+=======================================================*/
+.bg-parallax {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*=======================================================
+-                      ANIMATIONS
+=======================================================*/
+#home-cover, #home-heading, #home-button {
+    animation-duration: .5s;
+}
+
+#home-cover {
+    animation-delay: .1s;
+}
+
+#home-heading {
+    animation-delay: .5s;
+}
+
+#home-button {
+    animation-delay: 1s;
+}
+
 
 /*=======================================================
 -                      BUTTONS
@@ -85,4 +150,25 @@ h3 {
 .btn-white:hover, .btn-white:focus {
     background-color: #fff;
     color: #41464b;
+}
+
+/*=======================================================
+-                      CONTENT
+=======================================================*/
+.content-box {
+    padding: 60px 0;
+}
+
+.content-title h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+}
+
+.content-title-underline {
+    width: 30px;
+    height: 3px;
+    background-color: #34c6d3;
+    margin: 0 auto;
 }

@@ -16,7 +16,6 @@
 /*=======================================================
 -                         GENERAL
 =======================================================*/
-
 html, body {
     height: 100%;
 }
@@ -39,7 +38,6 @@ p {
 /*=======================================================
 -                      HOME SECTION
 =======================================================*/
-
 #home {
     height: 100%;
 }
@@ -70,7 +68,6 @@ p {
 /*=======================================================
 -                   SERVICES SECTION
 =======================================================*/
-
 .service-item {
     padding: 20px 0px;
     margin-bottom: 20px;
@@ -106,7 +103,6 @@ p {
 /*=======================================================
 -                     ABOUT SECTION
 =======================================================*/
-
 #about-bg-diagonal {
     width: 60%;
     height: 700px;
@@ -147,7 +143,6 @@ p {
 /*=======================================================
 -                      WORK SECTION 
 =======================================================*/
-
 .row.no-gutters [class*=col-] {
     padding-left: 0px;
     padding-right: 0px;
@@ -160,6 +155,85 @@ p {
 }
 .img-wrapper img:hover {
     transform: scale(1.5);
+}
+
+/*=======================================================
+-                      TEAM SECTION 
+=======================================================*/
+/* note: styling for the social icons in the team members section is in SOCIAL ICONS section of CSS */
+.team-member {
+    margin: 0 15px;
+}
+.team-member-info {
+    padding: 10px 0 30px 0;
+}
+h4.team-member-name {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-top: 2px;
+}
+h4.team-member-designation {
+    color: #34c6d3;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+.team-member img {
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* .team-member img:hover {
+    opacity: 0.3;
+    transition: .5s ease;
+} */
+.first-name {
+    font-size: 26px;
+}
+
+/*=======================================================
+-                      TESTIMONIALS
+=======================================================*/
+#testimonials-cover {
+    background-image: url("../img/bg-testimonials.jpg")
+}
+#testimonials .content-box {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#customers-testimonials {
+    padding: 50px 0;
+}
+.testimonial img {
+    max-width: 120px;
+    margin: 0 auto;
+}
+
+/*=======================================================
+-                      SOCIAL ICONS 
+=======================================================*/
+
+/* social icons for team section */
+.social-list {
+    padding-left: 0; 
+}
+.social-list li {
+    list-style: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    margin-top: 10px;
+}
+.social-icon {
+    font-size: 22px;
+}
+.first-name,.icon-grey {
+    color: #64707b;
+}
+.social-icon:hover {
+    color: #34c6d3;
 }
 
 /*=======================================================
@@ -205,6 +279,7 @@ p {
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
+    transition: 0.5s;
 }
 
 .btn-white {
@@ -240,6 +315,10 @@ p {
     font-weight: 700;
     text-align: center;
     margin: 0px 0px 30px 0px;
+}
+
+.content-title-white h3 {
+    color: #fff;
 }
 
 .content-title-underline {

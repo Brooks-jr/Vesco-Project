@@ -47,7 +47,6 @@ $(function() {
         autoplay: true,
         smartSpeed: 700,
         loop: true,
-        nav: true,
         responsive: {
             0:{
                 items:1

@@ -1,6 +1,7 @@
+
 /*=======================================================
 
-===   DEFAULT VALUES  ===
+                ===   DEFAULT VALUES  ===
 
 == FONTS ==
 - font family       : Roboto Condensed
@@ -13,16 +14,14 @@
 - Black             : #000
 ========================================================*/
 
+
+
+
+
+
 /*=======================================================
 -                         GENERAL
 =======================================================*/
-
-/* for developing only, delete after */
-/* *:hover {
-    border: 1px solid red;
-} */
-/* ================================== */
-
 
 html, body {
     height: 100%;
@@ -203,21 +202,15 @@ h4.team-member-designation {
 }
 
 .team-member img {
-    
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-/* .team-member img:hover {
-    opacity: 0.3;
-    transition: .5s ease;
-} */
 
 .first-name {
     font-size: 26px;
 }
 
 /*=======================================================
--                      TESTIMONIALS
+-                 TESTIMONIALS SECTION
 =======================================================*/
 
 #testimonials-cover {
@@ -283,29 +276,52 @@ h4.team-member-designation {
     letter-spacing: 1px;
 }
 
+
+
 /*=======================================================
--                       PRICING
+-                   PRICING SECTION
 =======================================================*/
+
 .pricing-box {
     border: 3px solid #34c6d3;
     padding: 50px 0;
     margin: 40px 0;
 }
+
+.pricing-box-lg {
+    padding: 90px 0;
+    margin: 0;
+    background-color: #34c6d3;
+    box-shadow:  0 0px 70px 0 rgba(52, 198, 211, .7), 0 0px 0px 0 rgba(52, 198, 211, 1);
+}
+
+.pricing-box-lg h4.pricing-title {
+    background-color: #fff;
+    color: #34c6d3;
+
+}
+
+.pricing-box-lg span.amount {
+    color: #fff;
+}
+
 h4.pricing-title {
     background-color: #34c6d3;
     color: #fff;
     display: inline-block;
     padding: 7px 15px;
     margin: 0 0 30px 0;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 700;
     text-transform: uppercase;
 }
-.pricing-value {
+
+h3.pricing-value {
     font-size: 60px;
     font-weight: 700;
 }
-.pricing-value sup {
+
+h3.pricing-value sup {
     font-size: 28px;
     font-weight: normal;
     vertical-align: super;
@@ -315,6 +331,30 @@ span.amount {
     color: #34c6d3;
     font-weight: 700;
 }
+
+ul.pricing-spec {
+    list-style: none;
+    padding-left: 0;
+    margin: 20px 0 60px 0;
+}
+
+ul.pricing-spec li p {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.no-left-border {
+    border-left: 0;
+}
+
+.no-right-border {
+    border-right: 0;
+}
+
+/*=======================================================
+-                     STATS SECTION
+=======================================================*/
+
 
 /*=======================================================
 -                      SOCIAL ICONS 
@@ -390,30 +430,28 @@ span.amount {
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
-    transition: 0.5s;
+    transition: 0.3s;
     letter-spacing: 3px;
     font-style: italic;
 }
 
 .btn-white {
-    color: #fff;
+    color: #41464b;
     border-color: #fff;
 }
 
-.btn-white:hover, .btn-white:focus {
-    background-color: #fff;
-    color: #41464b;
-}
-
 .btn-blue {
-    color: #34c6d3;
+    color: #41464b;
     border-color: #34c6d3;
 }
 
-.btn-blue:hover, .btn-blue:focus {
+.btn-blue:hover, .btn-blue:focus, .btn-white:hover, .btn-white:focus {
     background-color: #34c6d3;
     color: #fff;
 }
+
+
+
 
 /*=======================================================
 -                      CONTENT

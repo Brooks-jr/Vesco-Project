@@ -93,9 +93,9 @@ p {
     text-align: center;
 }
 
-.service-item:hover .service-item-icon {
+.service-item:hover, .service-item:hover svg, .service-item:hover p, .service-item:hover h3 {
     color: #fff;
-    background-color: #34c6d3;
+    transition: ease-in;
 }
 
 .service-item-title h3 {
@@ -214,11 +214,11 @@ h4.team-member-designation {
 =======================================================*/
 
 #testimonials-cover {
-    background-image: url("../img/bg-testimonials.jpg")
+    background-image: url("../img/bg-testimonials-2.gif")
 }
 
 #testimonials .content-box {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 #customers-testimonials {
@@ -364,7 +364,7 @@ background-color: rgba(0, 0, 0, .8);
     color: #34c6d3;
 }
 
-.stats-item,{
+.stats-item {
     padding: 100px 0; 
 }
 .stats-item p{
@@ -385,6 +385,13 @@ background-color: rgba(0, 0, 0, .8);
     color: rgb(10, 160, 10);
     letter-spacing: 1.5px;
 } 
+
+/*=======================================================
+-                      CLIENTS SECTION 
+=======================================================*/
+.client {
+    padding: 40px 0;
+}
 
 /*=======================================================
 -                      SOCIAL ICONS 

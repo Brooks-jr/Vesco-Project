@@ -55,3 +55,34 @@ $(function () {
     });
 });
 
+/*=======================================================
+-                     STATS SECTION
+=======================================================*/
+$(function() {
+    // counter activation
+    $('.counter').counterUp ({
+        delay: 10,
+        time: 2500
+    });
+    
+});
+
+/*=======================================================
+-                   CLIENTS SECTION
+=======================================================*/
+
+$(function () {
+    // image carousel
+    $("#clients-list").owlCarousel({
+        autoplay: true,
+        smartSpeed: 700,
+        loop: true,
+        responsive: {
+            600: {
+                items: 6
+            }
+        }
+    });
+});
+
+

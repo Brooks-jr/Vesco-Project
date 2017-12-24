@@ -354,7 +354,37 @@ ul.pricing-spec li p {
 /*=======================================================
 -                     STATS SECTION
 =======================================================*/
+#stats-cover {
+    background-image: url("../img/bg-stats-3.jpg");
+}
+#stats .content-box {
+background-color: rgba(0, 0, 0, .8);
+}
+.stats-item svg{
+    color: #34c6d3;
+}
 
+.stats-item,{
+    padding: 100px 0; 
+}
+.stats-item p{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+ }
+
+.stats-item h2 {
+    font-size: 35px;
+    font-weight: 700;
+
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+
+.stats-item span {
+    color: rgb(10, 160, 10);
+    letter-spacing: 1.5px;
+} 
 
 /*=======================================================
 -                      SOCIAL ICONS 

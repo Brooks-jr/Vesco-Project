@@ -1,4 +1,3 @@
-
 /*=======================================================
 
                 ===   DEFAULT VALUES  ===
@@ -13,11 +12,6 @@
 - White             : #fff          (text over dark backgrounds)
 - Black             : #000
 ========================================================*/
-
-
-
-
-
 
 /*=======================================================
 -                         GENERAL
@@ -175,7 +169,7 @@ p {
 -                      TEAM SECTION 
 =======================================================*/
 
-/* note: styling for the social icons in the team members section is in SOCIAL ICONS section of CSS */
+/* note: styling for the social icons are in SOCIAL ICONS section of CSS */
 
 .team-member {
     margin: 0 15px;
@@ -276,8 +270,6 @@ h4.team-member-designation {
     letter-spacing: 1px;
 }
 
-
-
 /*=======================================================
 -                   PRICING SECTION
 =======================================================*/
@@ -292,13 +284,12 @@ h4.team-member-designation {
     padding: 90px 0;
     margin: 0;
     background-color: #34c6d3;
-    box-shadow:  0 0px 70px 0 rgba(52, 198, 211, .7), 0 0px 0px 0 rgba(52, 198, 211, 1);
+    box-shadow: 0 0px 70px 0 rgba(52, 198, 211, .7), 0 0px 0px 0 rgba(52, 198, 211, 1);
 }
 
 .pricing-box-lg h4.pricing-title {
     background-color: #fff;
     color: #34c6d3;
-
 }
 
 .pricing-box-lg span.amount {
@@ -354,29 +345,32 @@ ul.pricing-spec li p {
 /*=======================================================
 -                     STATS SECTION
 =======================================================*/
+
 #stats-cover {
     background-image: url("../img/bg-stats-3.jpg");
 }
+
 #stats .content-box {
-background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, .8);
 }
-.stats-item svg{
+
+.stats-item svg {
     color: #34c6d3;
 }
 
 .stats-item {
-    padding: 100px 0; 
+    padding: 100px 0;
 }
-.stats-item p{
+
+.stats-item p {
     color: #fff;
     text-transform: uppercase;
     font-weight: 300;
- }
+}
 
 .stats-item h2 {
     font-size: 35px;
     font-weight: 700;
-
     margin-top: 15px;
     margin-bottom: 1px;
 }
@@ -384,20 +378,78 @@ background-color: rgba(0, 0, 0, .8);
 .stats-item span {
     color: rgb(10, 160, 10);
     letter-spacing: 1.5px;
-} 
+}
 
 /*=======================================================
 -                      CLIENTS SECTION 
 =======================================================*/
+
 .client {
     padding: 40px 0;
 }
 
 /*=======================================================
--                      SOCIAL ICONS 
+-                   CONTACT SECTION
 =======================================================*/
 
-/* social icons for team section */
+/* note: styling for the social icons are in SOCIAL ICONS section of CSS */
+
+footer {
+    background-color: #41464b;
+    padding-top: 30px;
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+#contact-left h3, #contact-right h3 {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+#contact-left p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+#contact-info {
+    background-image: url(../img/world-map.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+address {
+    color: #fff;
+}
+
+address strong, #phone-fax-email strong, #contact-left p strong {
+    color: #34c6d3;
+    letter-spacing: 1px;
+}
+
+.form-control {
+    background: transparent;
+    color: #fff;
+    border-color: #fff;
+    border-radius: 0;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+#send-button a {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+/*=======================================================
+-                         FOOTER
+=======================================================*/
+
+
+/*=======================================================
+-                      SOCIAL ICONS 
+=======================================================*/
 
 .social-list {
     padding-left: 0;
@@ -418,6 +470,10 @@ background-color: rgba(0, 0, 0, .8);
 
 .first-name, .icon-grey {
     color: #64707b;
+}
+
+.icon-white {
+    color: #fff;
 }
 
 .social-icon:hover {
@@ -486,9 +542,6 @@ background-color: rgba(0, 0, 0, .8);
     background-color: #34c6d3;
     color: #fff;
 }
-
-
-
 
 /*=======================================================
 -                      CONTENT

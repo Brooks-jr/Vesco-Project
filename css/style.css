@@ -36,6 +36,14 @@ p {
     font-weight: 300;
 }
 
+::-webkit-scrollbar-thumb {
+    background:#34c6d3;
+}
+
+::-webkit-scrollbar {
+    background: #64707b;
+}
+
 /*=======================================================
 -                      HOME SECTION
 =======================================================*/
@@ -445,7 +453,45 @@ address strong, #phone-fax-email strong, #contact-left p strong {
 /*=======================================================
 -                         FOOTER
 =======================================================*/
+#footer-bottom {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 30px 0;
+    margin-top: 60px;
+}
 
+#footer-copyright p {
+    margin: 0;
+    letter-spacing: 1px;
+}
+#footer-menu {
+    float: left;
+    font-size: 16px;
+}
+
+#footer-menu ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0; 
+}
+
+#footer-menu ul li{
+    display: inline-block;
+}
+
+#footer-menu a {
+    margin: 0 8px;
+    font-size: 16px;
+    text-decoration: none;    
+}
+
+#footer-menu a:hover {
+    color: #34c6d3;
+}
+
+#footer-menu,#footer-copyright p, #footer-menu a, #footer-menu ul li {
+    color: #64707b;
+    font-weight: 400;
+}
 
 /*=======================================================
 -                      SOCIAL ICONS 

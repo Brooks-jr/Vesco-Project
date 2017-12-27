@@ -1,4 +1,40 @@
 /*=======================================================
+-                    HEADER NAVBAR
+=======================================================*/
+$(function() {
+    // show/hide navbar on scroll
+    $(window).scroll(function () {
+
+        if($(this).scrollTop() < 50 ) {
+            // hide
+            $("nav").removeClass("vesco-top-nav");
+
+        } else {
+            // show
+            $("nav").addClass("vesco-top-nav");
+        }
+
+    });
+    
+});
+
+$(function() {
+    // smooth scroll
+    $("a.smooth-scroll").click(function(event) {
+        event.preventDefault();
+
+        // get & return section id: #home, #about and etc.
+        var section = $(this).attr("href");
+
+        $("html, body").animate({
+            scrollTop: $(section).offset().top - 64
+        }, 1250, "easeInOutExpo");
+
+    });
+    
+});
+
+/*=======================================================
 -                   SERVICES SECTION
 =======================================================*/
 $(function () {
@@ -85,40 +121,5 @@ $(function () {
     });
 });
 
-/*=======================================================
--                    HEADER NAVBAR
-=======================================================*/
-$(function() {
-    // show/hide navbar on scroll
-    $(window).scroll(function () {
 
-        if($(this).scrollTop() < 50 ) {
-            // hide
-            $("nav").removeClass("vesco-top-nav");
-
-        } else {
-            // show
-            $("nav").addClass("vesco-top-nav");
-        }
-
-    });
-    
-});
-
-$(function() {
-    // smooth scroll
-
-    $("a.smooth-scroll").click(function(event) {
-        event.preventDefault();
-
-        // get & return section id: #home, #about and etc.
-        var section = $(this).attr("href");
-
-        $("html, body").animate({
-            scrollTop: $(section).offset().top - 64
-        }, 1250);
-
-    });
-    
-});
 

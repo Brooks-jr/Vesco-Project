@@ -641,6 +641,18 @@ address strong, #phone-fax-email strong, #contact-left p strong {
     color: #fff;
 }
 
+.btn-back-to-top {
+    font-size: 22px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #34c6d3;
+    padding: 6px 20px;
+    border-radius: 0;
+    border: 1.5px solid #34c6d3;
+    display: none;
+}
+
 /*=======================================================
 -                      CONTENT
 =======================================================*/

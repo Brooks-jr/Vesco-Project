@@ -1,0 +1,70 @@
+/*=======================================================
+-                    MEDIA QUERIES
+=======================================================*/
+
+/* LARGE DEVICES (Desktops & Laptops) */
+
+@media(min-width: 1200px) {}
+
+/* MEDIUM DEVICES (Medium Desktop/Laptops & Landscape Tablets)*/
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    /* mobile menu */
+    .navbar {
+        background: rgba(0, 0, 0, .7);
+        padding: 0;
+    }
+    .navbar-nav {
+        float: left;
+    }
+    .vesco-nav-wrapper {
+        padding: 0;
+    }
+}
+
+/* SMALL DEVICES (Small Desktop/Laptops & Portrait Tablets) */
+
+@media(min-width: 768px) and (max-width: 991px) {
+    /* mobile menu */
+    .navbar {
+        background: rgba(0, 0, 0, .7);
+        padding: 0;
+    }
+    .navbar-nav {
+        float: left;
+    }
+    .vesco-nav-wrapper {
+        padding: 0;
+    }
+    /* about sect. */
+    #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 350px;
+    }
+    #about-content-box {
+        width: 100%;
+        height: 350px;
+    }
+    /* stats sect. */
+    .stats-item {
+        padding: 20px 0;
+    }
+    /* footer */
+    #footer-copyright {
+        text-align: center;
+    }
+}
+
+/* EXTRA SMALL DEVICES (SmartPhones & Portrait Tablets) */
+
+@media(max-width: 767px) {}
+
+/* EVEN SMALLER DEVICES (Smaller SmartPhones)*/
+
+@media(max-width: 480px) {}
+
+/* SMALLEST DEVICES (SmartWatches) */
+
+@media(max-width: 320px) {}

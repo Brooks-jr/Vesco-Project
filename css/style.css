@@ -74,7 +74,7 @@ p {
  .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
     background: none;
     color: #34c6d3;
-    border-bottom: 2px solid #34c6d3;
+    border-bottom: 2px solid #34c6d3;  
 }
 
 .navbar-toggle.collapsed, .navbar-toggle, .navbar-toggle:hover, .navbar-toggle:focus {
@@ -267,7 +267,7 @@ h4.team-member-designation {
 =======================================================*/
 
 #testimonials-cover {
-    background-image: url("../img/bg-testimonials-2.gif")
+    background-image: url("../img/bg-testimonials.gif")
 }
 
 #testimonials .content-box {
@@ -406,7 +406,7 @@ ul.pricing-spec li p {
 =======================================================*/
 
 #stats-cover {
-    background-image: url("../img/bg-stats-3.jpg");
+    background-image: url("../img/bg-stats.jpg");
 }
 
 #stats .content-box {
@@ -455,6 +455,10 @@ ul.pricing-spec li p {
 
 footer {
     background-color: #41464b;
+    background-image: url(../img/bg-footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     padding-top: 30px;
     border-top: 5px solid rgba(0, 0, 0, 0.1);
 }
@@ -483,6 +487,7 @@ address {
 address strong, #phone-fax-email strong, #contact-left p strong {
     color: #34c6d3;
     letter-spacing: 1px;
+    font-size: 14px;
 }
 
 .form-control {
@@ -505,7 +510,7 @@ address strong, #phone-fax-email strong, #contact-left p strong {
 -                         FOOTER
 =======================================================*/
 #footer-bottom {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 30px 0;
     margin-top: 60px;
 }
@@ -632,7 +637,7 @@ address strong, #phone-fax-email strong, #contact-left p strong {
 }
 
 .btn-blue {
-    color: #41464b;
+    color: #34c6d3;
     border-color: #34c6d3;
 }
 

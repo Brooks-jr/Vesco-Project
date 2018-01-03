@@ -25,7 +25,6 @@
         border-left: 0;
         margin-right: 40px;
     }
-    
     .no-right-border {
         border-right: 0;
         margin-left: 40px;
@@ -68,7 +67,6 @@
     /* pricing sect. */
     .no-right-border, .no-left-border {
         border: 3px solid #34c6d3;
-        margin: 40px;
     }
 }
 
@@ -125,15 +123,15 @@
     .testimonial blockquote:after {
         right: 10px;
     }
-    .testimonial blockquote p{
+    .testimonial blockquote p {
         font-size: 14px;
     }
-     /* stats sect. */
-     .stats-item {
+    /* stats sect. */
+    .stats-item {
         padding: 20px 0;
     }
-     /* footer */
-     #footer-copyright {
+    /* footer */
+    #footer-copyright {
         text-align: center;
     }
 }
@@ -141,8 +139,8 @@
 /* EXTRA SMALL DEVICES (Portrait Phones)*/
 
 @media(max-width: 575.5px) {
-     /* mobile menu */
-     .navbar {
+    /* mobile menu */
+    .navbar {
         background: rgba(0, 0, 0, .7);
         padding: 0;
     }
@@ -182,7 +180,7 @@
     .testimonial blockquote:after {
         right: 10px;
     }
-    .testimonial blockquote p{
+    .testimonial blockquote p {
         font-size: 14px;
     }
     /* pricing table */
@@ -196,9 +194,8 @@
     }
     /* footer */
     #footer-copyright {
-    text-align: center;
+        text-align: center;
     }
-    
 }
 
 /* SMALLEST DEVICES (SmartWatches) */
@@ -208,7 +205,7 @@
     .service-item-icon {
         width: 58px;
         height: 58px;
-        padding: 7px; 
+        padding: 7px;
         margin-right: 22px;
         margin-bottom: 0;
     }
@@ -217,6 +214,19 @@
     }
     .service-item-description p, .service-item-title h3 {
         padding-left: 81px
+    }
+    /* testimonials */
+    .testimonial img {
+        max-width: 80px;
+    }
+    .testimonial blockquote {
+        padding: 6px 30px;
+    }
+    .testimonial blockquote:before {
+        left: 7px;
+    }
+    .testimonial blockquote:after {
+        right: 7px;
     }
     /* pricing table */
     .no-right-border, .no-left-border {

@@ -2,11 +2,11 @@
 -                    MEDIA QUERIES
 =======================================================*/
 
-/* LARGE DEVICES (Desktops & Laptops) */
+/* EXTRA LARGE DEVICES (Large Desktops) */
 
 @media(min-width: 1200px) {}
 
-/* MEDIUM DEVICES (Medium Desktop/Laptops & Landscape Tablets)*/
+/* LARGE DEVICES (Desktops & Laptops) */
 
 @media(min-width: 992px) and (max-width: 1199px) {
     /* mobile menu */
@@ -20,11 +20,21 @@
     .vesco-nav-wrapper {
         padding: 0;
     }
+    /* pricing sect. */
+    .no-left-border {
+        border-left: 0;
+        margin-right: 40px;
+    }
+    
+    .no-right-border {
+        border-right: 0;
+        margin-left: 40px;
+    }
 }
 
-/* SMALL DEVICES (Small Desktop/Laptops & Portrait Tablets) */
+/* MEDIUM DEVICES (Laptops & Tablets) */
 
-@media(min-width: 768px) and (max-width: 991px) {
+@media(min-width: 768px) and (max-width: 991.5px) {
     /* mobile menu */
     .navbar {
         background: rgba(0, 0, 0, .7);
@@ -55,16 +65,162 @@
     #footer-copyright {
         text-align: center;
     }
+    /* pricing sect. */
+    .no-right-border, .no-left-border {
+        border: 3px solid #34c6d3;
+        margin: 40px;
+    }
 }
 
-/* EXTRA SMALL DEVICES (SmartPhones & Portrait Tablets) */
+/* SMALL DEVICES (Landscape Phones) */
 
-@media(max-width: 767px) {}
+@media(min-width: 576px) and (max-width: 767.5px) {
+    /* mobile menu */
+    .navbar {
+        background: rgba(0, 0, 0, .7);
+        padding: 0;
+    }
+    .navbar-nav {
+        float: left;
+    }
+    .vesco-nav-wrapper {
+        padding: 0;
+    }
+    /* pricing sect. */
+    .no-right-border, .no-left-border {
+        border: 3px solid #34c6d3;
+        margin: 40px;
+    }
+    /* home sect.*/
+    #home-heading h3 {
+        font-size: 24px;
+    }
+    /* buttons */
+    .btn-general {
+        padding: 6px 22px;
+        font-size: 14px;
+    }
+    /* about sect. */
+    #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 350px;
+    }
+    #about-content-box {
+        width: 100%;
+        height: 350px;
+    }
+    /* work sect. */
+    .img-wrapper img {
+        min-width: 100%;
+    }
+    /* testimonials */
+    .testimonial blockquote {
+        padding: 6px 50px;
+    }
+    .testimonial blockquote:before {
+        left: 10px;
+    }
+    .testimonial blockquote:after {
+        right: 10px;
+    }
+    .testimonial blockquote p{
+        font-size: 14px;
+    }
+     /* stats sect. */
+     .stats-item {
+        padding: 20px 0;
+    }
+     /* footer */
+     #footer-copyright {
+        text-align: center;
+    }
+}
 
-/* EVEN SMALLER DEVICES (Smaller SmartPhones)*/
+/* EXTRA SMALL DEVICES (Portrait Phones)*/
 
-@media(max-width: 480px) {}
+@media(max-width: 575.5px) {
+     /* mobile menu */
+     .navbar {
+        background: rgba(0, 0, 0, .7);
+        padding: 0;
+    }
+    .navbar-nav {
+        float: left;
+    }
+    .vesco-nav-wrapper {
+        padding: 0;
+    }
+    /* home sect.*/
+    #home-heading h3 {
+        font-size: 24px;
+    }
+    /* buttons */
+    .btn-general {
+        padding: 6px 22px;
+        font-size: 14px;
+    }
+    /* about sect. */
+    #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 350px;
+    }
+    #about-content-box {
+        width: 100%;
+        height: 350px;
+    }
+    /* testimonials */
+    .testimonial blockquote {
+        padding: 6px 50px;
+    }
+    .testimonial blockquote:before {
+        left: 10px;
+    }
+    .testimonial blockquote:after {
+        right: 10px;
+    }
+    .testimonial blockquote p{
+        font-size: 14px;
+    }
+    /* pricing table */
+    .no-right-border, .no-left-border {
+        border: 3px solid #34c6d3;
+        margin: 40px;
+    }
+    /* stats sect. */
+    .stats-item {
+        padding: 20px 0;
+    }
+    /* footer */
+    #footer-copyright {
+    text-align: center;
+    }
+    
+}
 
 /* SMALLEST DEVICES (SmartWatches) */
 
-@media(max-width: 320px) {}
+@media(max-width: 320.5px) {
+    /* services sect. */
+    .service-item-icon {
+        width: 58px;
+        height: 58px;
+        padding: 7px; 
+        margin-right: 22px;
+        margin-bottom: 0;
+    }
+    .service-item-title h3 {
+        font-size: 17px;
+    }
+    .service-item-description p, .service-item-title h3 {
+        padding-left: 81px
+    }
+    /* pricing table */
+    .no-right-border, .no-left-border {
+        border: 3px solid #34c6d3;
+        margin: 20px;
+    }
+}

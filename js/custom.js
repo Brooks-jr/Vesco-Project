@@ -69,8 +69,14 @@ $(function () {
         loop: true,
         nav: true,
         responsive: {
-            600: {
-                items: 3
+            0: {
+                items: 1
+            },
+            480: {
+                items: 2
+            },
+            768: {
+                items:3
             }
         }
     });

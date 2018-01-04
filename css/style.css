@@ -49,6 +49,8 @@ p {
 =======================================================*/
 .navbar {
     padding: 20px 0;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
 }
 
@@ -217,11 +219,17 @@ p {
 }
 
 .img-wrapper img {
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: -webkit-transform .5s ease;
+    -o-transition: transform .5s ease;
     transition: transform .5s ease;
+    transition: transform .5s ease, -webkit-transform .5s ease;
 }
 
 .img-wrapper img:hover {
-    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+            transform: scale(1.5);
 }
 
 /*=======================================================
@@ -599,19 +607,23 @@ address strong, #phone-fax-email strong, #contact-left p strong {
 =======================================================*/
 
 #home-cover, #home-heading, #home-button {
-    animation-duration: .5s;
+    -webkit-animation-duration: .5s;
+            animation-duration: .5s;
 }
 
 #home-cover {
-    animation-delay: .1s;
+    -webkit-animation-delay: .1s;
+            animation-delay: .1s;
 }
 
 #home-heading {
-    animation-delay: .5s;
+    -webkit-animation-delay: .5s;
+            animation-delay: .5s;
 }
 
 #home-button {
-    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
 }
 
 /*=======================================================
